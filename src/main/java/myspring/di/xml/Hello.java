@@ -8,7 +8,7 @@ public class Hello {
 	List<String> names;
 
 	public Hello() {
-		System.out.println(this.getClass().getName());
+		System.out.println(this.getClass().getName()+"기본 생성자 호출 됨");
 	}
 
 	public Hello(String name, Printer printer) {

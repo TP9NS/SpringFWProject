@@ -14,6 +14,7 @@ public class Hello {
 	public Hello(String name, Printer printer) {
 		this.name = name;
 		this.printer = printer;
+		System.out.println(this.getClass().getName()+"오버로딩 호출 됨");
 	}
 
 	public List<String> getNames() {
